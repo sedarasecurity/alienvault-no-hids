@@ -1,4 +1,6 @@
 GRANT SELECT ON alienvault.host to hidschecker@'127.0.0.1' IDENTIFIED BY '<replace with password>';
+GRANT SELECT ON alienvault.host_properties to hidschecker@'127.0.0.1' IDENTIFIED BY '<replace with password>';
+GRANT SELECT ON alienvault.host_ip to hidschecker@'127.0.0.1' IDENTIFIED BY '<replace with password>';
 GRANT SELECT ON alienvault.hids_agents to hidschecker@'127.0.0.1' IDENTIFIED BY '<replace with password>';
 FLUSH PRIVILEGES;
 
